@@ -33,7 +33,6 @@ Promise.all([
         if(err) throw err;
         output.pic=result;
         open();
-        //http://localhost:3030/topic/topiclist
       })
   })
 ]).then(function(){
